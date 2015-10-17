@@ -10,5 +10,7 @@ def htmlunitVersion = '2.15'
 
 dependencies {
 	compile 'junit:junit:4.11'
-    compile "net.sourceforge.htmlunit:htmlunit:$htmlunitVersion"
+	compile "net.sourceforge.htmlunit:htmlunit:$htmlunitVersion"
 }
+
+defaultTasks 'clean', 'test'
